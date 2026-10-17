@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [
+    "numpy==2.3.5"
+  ],
+  "inputs": [
+    "research/community-frontier1094-audit/selected-replay.tar.gz"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Both complete selected local orientations; all 512 basis columns of helper 557; exact C_[7] endpoint, zero leakage and eight explicit coefficient counterexamples for faulty executors."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/test_verify.py"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Nine semantic groups: wrapper/child/scalar faults, full basis spectator control, batch partition invariance, independent rational primitive oracle, phase/permutation, overflow rejection, leakage-only guard, source pins and partial-publication refusal."
+    }
+  ]
+}

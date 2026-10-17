@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "task_id": "formal-interface-lemma",
+  "priority_revision": 6,
+  "base_commit": "18aacb215fc3717b06be8ceb9fca62aeca0d3e99",
+  "original_card": {
+    "id": "formal-interface-lemma",
+    "question": "Can one small, precisely scoped interface lemma be formalized with its actual hypotheses?",
+    "starting_points": [
+      "certificates/selected-result.json",
+      "research/hyperplane-end-lean/PROOF.md"
+    ],
+    "methods": [
+      "Formalize a missing boundary lemma identified by the selected review.",
+      "Audit a formal theorem-to-certificate binding independently."
+    ],
+    "acceptance_gate": "State the exact formalized proposition and remaining assumptions; avoid duplicate arithmetic formalizations already present.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/research_baseline.py"
+      ],
+      "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+      "inspect": "Read the exact hypotheses in the hyperplane-end proof and distinguish Lean theorems from finite supplier assumptions.",
+      "scope": "Positive control / source-bound orientation only; this is not a new construction or full cold replay."
+    },
+    "first_experiment": "State one missing boundary lemma in full before starting a proof-assistant build.",
+    "bottleneck_link": "A missing interface proof can reduce the conditional gap even if it does not change kappa.",
+    "allowed_variations": [
+      "Narrow to one formal lemma or one theorem-to-certificate binding."
+    ],
+    "scope_change_triggers": [
+      "Formalizing already-covered arithmetic and claiming the full multiplication theorem."
+    ],
+    "overlap_terms": [
+      "hyperplane end",
+      "formal interface",
+      "Lean binding"
+    ]
+  },
+  "scope_status": "changed",
+  "actual_scope": "Independent finite execution of the complete selected local words on all 512 payload basis columns of dirty helper 557; verify the C_[7] residual endpoint and zero leakage.",
+  "scope_change_reason": "The formal-interface card is narrowed to an executable finite binding, not a new Lean theorem. Existing record-level and label audits leave the literal executor as an explicit separate obligation.",
+  "bottleneck_link": "Residual wrapper exactness and correct event dispatch are distinct premises of Lemma G and the inherited helper contract.",
+  "budget_minutes": 60,
+  "stop_rule": "One helper, both complete local orientations, all 512 local columns; stop if runtime exceeds 20 minutes or if identity fails. No second helper or supplier search.",
+  "outcome": "completed",
+  "evidence": "Both complete 24767-event selected words, all 512 local basis columns; eight explicit rejecting controls; nine behavioral test groups. See RESULT.json.",
+  "author": "Sricharan Vagvala (@theon199), with substantial OpenAI Codex assistance",
+  "ai_assistance": "Substantial OpenAI Codex assistance in investigation, independent implementation, tests and writing. No independent human or proof-kernel review claimed.",
+  "open_questions": [
+    {
+      "question": "Can the same literal-executor check cover the remaining 239 wrapped helpers and then all ordinary input blocks?",
+      "why_it_matters": "One complete operator column does not establish a full 712-field executor bridge or a new supplier.",
+      "first_step": "Choose a distinct helper with a different wrapper key or a data input; derive its endpoint independently and keep nonzero wrapper boundaries and leakage-only controls. Inventory existing checks first.",
+      "blocked_by": "Remaining execution and review budget; no new mathematical obstruction claimed."
+    },
+    {
+      "question": "Can the finite event semantics be refined to the actual recursive child and physical caller?",
+      "why_it_matters": "The evaluator directly applies serialized matrix recipes; it does not implement their recursive tariffs, owner movement, storage or finite arithmetic.",
+      "first_step": "Specify one real child invocation/return at a tested event and charge its complete machine and numeric contract.",
+      "blocked_by": "A constructive all-size physical and numerical caller contract."
+    }
+  ],
+  "assignment_seed": 79,
+  "assignment_seed_source": "OS randomness: secrets.randbelow(100), drawn once at session entry",
+  "claim": {
+    "recorded_at_utc": "2026-10-17T01:30:00Z",
+    "finish_by_utc": "2026-10-17T02:24:00Z",
+    "location": "local; GitHub GraphQL reports no pinned issues",
+    "status": "DONE",
+    "result": "Both complete local words agree with the rank-seven helper residual on all 512 basis columns; zero leakage, eight semantic failures and nine behavioral groups verified.",
+    "artifact": "https://github.com/theon199/integer-mult-bounds/tree/sprint/seed79-independent-obligation/research/selected-dirty-helper-execution"
+  },
+  "candidate_tasks": [
+    {
+      "object": "rank-seven coordinated V45 group",
+      "decision": "already independently reconstructed by rank7-joint-frame-audit and PR3093; do not duplicate"
+    },
+    {
+      "object": "nonzero selected residual helper execution",
+      "decision": "chosen; seed 79 selects index 19 in the 30 entering cold helpers, helper 557 with frames 3:998"
+    },
+    {
+      "object": "corrected f7 prefix pruning",
+      "decision": "tiny false-prune and small domains already covered by PR3096 and predecessor; do not duplicate"
+    }
+  ],
+  "scientific_source": {
+    "selected_pr": 1094,
+    "audited_head": "0fc329d0bec93ca7cd288eaea1295172e8789810",
+    "capsule": {
+      "path": "research/community-frontier1094-audit/selected-replay.tar.gz",
+      "sha256": "f1da80610bf33c58527f18ad63b4350d0b864e1d4486141ee17ac9bed4d529d6"
+    },
+    "member_prefix": "candidate/strict/global/base/providers/gauge44/"
+  },
+  "overlap": {
+    "observed_at_utc": "2026-10-17T01:33:11Z",
+    "open_prs": 260,
+    "closed_pr_bodies": 2529,
+    "discussion_records": 1868,
+    "complete_pagination": true,
+    "method": "find_overlap.py with cache under /tmp; searched nonzero residual, dirty helper execution, executor bridge, helper 557; read nearest retained audits and current QQ16 roundoff handoffs.",
+    "limits": "Non-atomic metadata snapshots; no arbitrary diff or unpublished-work coverage. Not a proof of novelty."
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "predecessor_heads": {
+    "1781": "dafbaadeb423b3bc80fbf6fcd6f415400dc0ffbf",
+    "1964": "6f34af34efa178cc2dbe0612c094a1bda591d332",
+    "2029": "da1bc730b9963f3e53538964d16364d2076a4e5d"
+  },
+  "submission_freshness": {
+    "main": "18aacb215fc3717b06be8ceb9fca62aeca0d3e99",
+    "priority_revision": 6,
+    "checked_at_utc": "2026-10-17T01:37:54Z",
+    "open_prs": 261,
+    "discussion_records": 1869,
+    "closed_pr_bodies_checked_at_utc": "2026-10-17T01:33:11Z",
+    "closed_pr_bodies": 2529,
+    "coverage": "Complete paginated metadata; nearest historical audits read directly. No matching live claim found; arbitrary diffs and unpublished work excluded."
+  },
+  "verification": {
+    "registered_replay": "passed",
+    "optimized_behavioral_tests": 9,
+    "semantic_mutations_rejected": 8,
+    "read_only_git_free_export": "passed, all eight source/package files byte-identical afterwards",
+    "selected_cold_replay": "not run: selected construction and frozen inputs unchanged",
+    "formal_proof_assistant": "not run; finite independent verification only"
+  }
+}

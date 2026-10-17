@@ -1,0 +1,265 @@
+{
+  "dimension": 512,
+  "entrance_frame": 3,
+  "failure_controls": [
+    {
+      "actual_gaussian_numerator": [
+        0,
+        0
+      ],
+      "common_denominator": 16,
+      "differing_fields": [
+        557
+      ],
+      "expected_gaussian_numerator": [
+        -1,
+        -1
+      ],
+      "helper_endpoint_still_exact": false,
+      "input_column": 79,
+      "mutation": "omit_pre",
+      "orientation": "forward",
+      "output_address": 0,
+      "witness_field": 557
+    },
+    {
+      "actual_gaussian_numerator": [
+        -1,
+        1
+      ],
+      "common_denominator": 16,
+      "differing_fields": [
+        557
+      ],
+      "expected_gaussian_numerator": [
+        1,
+        -1
+      ],
+      "helper_endpoint_still_exact": false,
+      "input_column": 79,
+      "mutation": "forward_post",
+      "orientation": "forward",
+      "output_address": 2,
+      "witness_field": 557
+    },
+    {
+      "actual_gaussian_numerator": [
+        -1,
+        1
+      ],
+      "common_denominator": 32,
+      "differing_fields": [
+        192,
+        200,
+        557
+      ],
+      "expected_gaussian_numerator": [
+        0,
+        0
+      ],
+      "helper_endpoint_still_exact": false,
+      "input_column": 79,
+      "mutation": "omit_child",
+      "orientation": "forward",
+      "output_address": 1,
+      "witness_field": 192
+    },
+    {
+      "actual_gaussian_numerator": [
+        1,
+        -1
+      ],
+      "common_denominator": 32,
+      "differing_fields": [
+        192,
+        200
+      ],
+      "expected_gaussian_numerator": [
+        0,
+        0
+      ],
+      "helper_endpoint_still_exact": true,
+      "input_column": 79,
+      "mutation": "omit_add",
+      "orientation": "forward",
+      "output_address": 1,
+      "witness_field": 192
+    },
+    {
+      "actual_gaussian_numerator": [
+        0,
+        0
+      ],
+      "common_denominator": 16,
+      "differing_fields": [
+        557
+      ],
+      "expected_gaussian_numerator": [
+        -1,
+        -1
+      ],
+      "helper_endpoint_still_exact": false,
+      "input_column": 79,
+      "mutation": "omit_pre",
+      "orientation": "backward",
+      "output_address": 0,
+      "witness_field": 557
+    },
+    {
+      "actual_gaussian_numerator": [
+        -1,
+        1
+      ],
+      "common_denominator": 16,
+      "differing_fields": [
+        557
+      ],
+      "expected_gaussian_numerator": [
+        1,
+        -1
+      ],
+      "helper_endpoint_still_exact": false,
+      "input_column": 79,
+      "mutation": "forward_post",
+      "orientation": "backward",
+      "output_address": 2,
+      "witness_field": 557
+    },
+    {
+      "actual_gaussian_numerator": [
+        0,
+        0
+      ],
+      "common_denominator": 16,
+      "differing_fields": [
+        557
+      ],
+      "expected_gaussian_numerator": [
+        -1,
+        -1
+      ],
+      "helper_endpoint_still_exact": false,
+      "input_column": 79,
+      "mutation": "omit_child",
+      "orientation": "backward",
+      "output_address": 0,
+      "witness_field": 557
+    },
+    {
+      "actual_gaussian_numerator": [
+        -1,
+        0
+      ],
+      "common_denominator": 16,
+      "differing_fields": [
+        4,
+        5,
+        68,
+        69
+      ],
+      "expected_gaussian_numerator": [
+        0,
+        0
+      ],
+      "helper_endpoint_still_exact": true,
+      "input_column": 79,
+      "mutation": "omit_add",
+      "orientation": "backward",
+      "output_address": 1,
+      "witness_field": 4
+    }
+  ],
+  "helper": 557,
+  "orientations": [
+    {
+      "activity": {
+        "active_events": {
+          "climb": 6,
+          "residual_post": 1,
+          "residual_pre": 1,
+          "scalar_add": 7
+        },
+        "distinct_active_children": 6,
+        "touched_fields": [
+          192,
+          557
+        ]
+      },
+      "event_counts": {
+        "adapter": 1090,
+        "center": 8,
+        "climb": 3486,
+        "phase": 10,
+        "residual_adapter": 480,
+        "scalar": 19693
+      },
+      "events": 24767,
+      "nonzero_wrapper_boundaries": [
+        [
+          7959,
+          "pre",
+          3,
+          998
+        ],
+        [
+          24623,
+          "post",
+          3,
+          998
+        ]
+      ],
+      "orientation": "forward",
+      "other_fields_zero": 711,
+      "output_sha256": "2781e6034774ac64536622c47dbf366f5e293a36433dcfb01c5a7c0d95e32d47",
+      "payload_columns": 512
+    },
+    {
+      "activity": {
+        "active_events": {
+          "climb": 9,
+          "residual_post": 1,
+          "residual_pre": 1,
+          "scalar_add": 9
+        },
+        "distinct_active_children": 9,
+        "touched_fields": [
+          5,
+          455,
+          557
+        ]
+      },
+      "event_counts": {
+        "adapter": 1090,
+        "center": 8,
+        "climb": 3486,
+        "phase": 10,
+        "residual_adapter": 480,
+        "scalar": 19693
+      },
+      "events": 24767,
+      "nonzero_wrapper_boundaries": [
+        [
+          7959,
+          "pre",
+          3,
+          998
+        ],
+        [
+          24623,
+          "post",
+          3,
+          998
+        ]
+      ],
+      "orientation": "backward",
+      "other_fields_zero": 711,
+      "output_sha256": "2781e6034774ac64536622c47dbf366f5e293a36433dcfb01c5a7c0d95e32d47",
+      "payload_columns": 512
+    }
+  ],
+  "rank": 7,
+  "schema_version": 1,
+  "scope": "finite serialized local executor; no all-size, machine, numeric or supplier admission",
+  "status": "PASS_SELECTED_DIRTY_HELPER_EXECUTION",
+  "terminal_frame": 998
+}
