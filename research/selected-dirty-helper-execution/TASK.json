@@ -132,5 +132,12 @@
     "read_only_git_free_export": "passed, all eight source/package files byte-identical afterwards",
     "selected_cold_replay": "not run: selected construction and frozen inputs unchanged",
     "formal_proof_assistant": "not run; finite independent verification only"
+  },
+  "publication": {
+    "verified_commit": "3481bc0eeab0e90c738752884a63eec881538cbf",
+    "artifact": "https://github.com/theon199/integer-mult-bounds/commit/3481bc0eeab0e90c738752884a63eec881538cbf",
+    "status": "public fork contribution; upstream PR creation denied HTTP403 Resource not accessible by integration via CLI and connector",
+    "upstream_pr_created": false,
+    "discussion_post_created": false
   }
 }

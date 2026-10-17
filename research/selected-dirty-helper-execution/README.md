@@ -153,3 +153,13 @@ Kothe for the rank-seven Lean pairs and selected word lineage; Rohan Arun for
 capsule and its notices retain their cumulative attribution. Tekalign,
 Arham Tahir, Ross Richardson, Nick Petalas and the QQ16 team retain credit for
 the separate native/numerical work used to distinguish this scope.
+
+## Publication handoff
+
+The verified implementation and receipt are public at fork commit
+[`3481bc0eeab0e90c738752884a63eec881538cbf`](https://github.com/theon199/integer-mult-bounds/commit/3481bc0eeab0e90c738752884a63eec881538cbf).
+GitHub denied PR creation through both CLI and connector with HTTP 403,
+`Resource not accessible by integration`. No upstream PR or Discussion post
+was created. The local claim is complete and released. A maintainer can use
+the [fork comparison](https://github.com/CrocSwap/integer-mult-bounds/compare/main...theon199:sprint/seed79-independent-obligation?expand=1)
+to submit the focused contribution. This section adds publication status only.
